@@ -77,13 +77,16 @@ header {
 }
 .left {
     position: absolute;
-    top: 450px;
+    top: 449px;
     left: 0;
 }
 .right {
     position: absolute;
-    bottom: -179px;
+    bottom: -210px;
     right: 0px;
+}
+.intro {
+    width: 100%;
 }
 .first-section-text {
     width: 300px;
