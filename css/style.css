@@ -27,11 +27,14 @@ header {
     width: 100%;
     align-self: center;
     padding: 10px 15px;
+    z-index: 10;
+    background-color: #fff;
 }
 .icon {
     position: absolute;
     top: 5px;
     right: 15px;
+    z-index: 10;
 }
 .hide {
     display: none;
@@ -40,11 +43,13 @@ header {
     background: #000 url(../images/bg-pattern-mobile-nav.svg) bottom no-repeat;
     height: 100vh;
     width: 100%;
+    position: fixed;
+    z-index: 1;
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 .nav-list li {
     width: 50%;
